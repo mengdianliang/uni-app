@@ -1,0 +1,1 @@
+<view><view>这是列表页</view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="box-item">{{item}}</view></block></view>

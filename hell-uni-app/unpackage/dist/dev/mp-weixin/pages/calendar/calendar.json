@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-calendar",
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

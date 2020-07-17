@@ -1,0 +1,1 @@
+<view class="data-v-2d263fbe"><view class="data-v-2d263fbe">这是列表页</view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="line-styl data-v-2d263fbe">{{item}}</view></block><button data-event-opts="{{[['tap',[['pullDown',['$event']]]]]}}" bindtap="__e" class="data-v-2d263fbe">下拉刷新</button></view>

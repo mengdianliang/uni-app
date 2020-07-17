@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/navigator/navigator",
+    "pages/message/message",
+    "pages/list/list",
+    "pages/index/index",
+    "pages/contact/contact",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#7FFF00",
+    "backgroundColor": "#7CCD7C",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#7D26CD",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/message.png",
+        "selectedIconPath": "static/message-active.png"
+      },
+      {
+        "text": "联系",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/contact.png",
+        "selectedIconPath": "static/contact-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

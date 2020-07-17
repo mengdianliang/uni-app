@@ -1,0 +1,1 @@
+<view class="contact"><image class="img" src="../../static/images/193.jpg"></image><view class="info"><view data-event-opts="{{[['tap',[['callMe',['$event']]]]]}}" bindtap="__e">联系电话：400-618-9090（点击拨打）</view><view>地址：北京似懂非懂梵蒂冈豆腐干反对的官方的双方都是</view></view><map class="map" scale="{{scale}}" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{covers}}"></map></view>
